@@ -23,7 +23,7 @@ WGKeeper consists of a central **Console** for orchestration and **Node** agents
 | Component | Description | Status |
 |-----------|-------------|--------|
 | **[Node](https://github.com/wgkeeper/wgkeeper-node)** | Agent on each WireGuard host. REST API for peer management. Go. | [![Release](https://img.shields.io/github/v/release/wgkeeper/wgkeeper-node)](https://github.com/wgkeeper/wgkeeper-node/releases/latest) |
-| **[Console](https://github.com/wgkeeper/wgkeeper-console)** | Central admin panel for multi-node management. | 🚧 In development |
+| **[Console](https://github.com/wgkeeper/wgkeeper-console)** | Central admin panel for multi-node management. | [![Release](https://img.shields.io/github/v/release/wgkeeper/wgkeeper-console)](https://github.com/wgkeeper/wgkeeper-console/releases/latest) |
 
 ## Getting started
 
