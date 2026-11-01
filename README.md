@@ -1,8 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="brand/wgkeeper-dark.svg">
-    <img alt="wgkeeper" src="brand/wgkeeper-light.svg" height="64">
-  </picture>
+  <img alt="wgkeeper" src="brand/wgkeeper-light.svg#gh-light-mode-only" height="64"><img alt="wgkeeper" src="brand/wgkeeper-dark.svg#gh-dark-mode-only" height="64">
 </p>
 
 <p align="center">

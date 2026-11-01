@@ -16,14 +16,15 @@ The files in this folder are the single source for every repository and the docs
 | `avatar.png` | 512 × 512 avatar for the GitHub organisation and Docker Hub |
 | `social.png`, `social-node.png`, `social-console.png` | 1280 × 640 GitHub social previews (Settings → Social preview) |
 
-`-light` files are for light backgrounds, `-dark` for dark ones. In a README, let GitHub pick:
+`-light` files are for light backgrounds, `-dark` for dark ones. In a README, add both and let GitHub show the one that matches the viewer's GitHub theme:
 
 ```html
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wgkeeper/wgkeeper/main/brand/wgkeeper-node-dark.svg">
-  <img alt="wgkeeper node" src="https://raw.githubusercontent.com/wgkeeper/wgkeeper/main/brand/wgkeeper-node-light.svg" height="56">
-</picture>
+<p align="center">
+  <img alt="wgkeeper node" src="https://raw.githubusercontent.com/wgkeeper/wgkeeper/main/brand/wgkeeper-node-light.svg#gh-light-mode-only" height="64"><img alt="wgkeeper node" src="https://raw.githubusercontent.com/wgkeeper/wgkeeper/main/brand/wgkeeper-node-dark.svg#gh-dark-mode-only" height="64">
+</p>
 ```
+
+Keep both `<img>` tags on one line with no space between them, so the visible one stays centred. Don't use `<picture>` with `prefers-color-scheme`: it follows the operating system's theme, not GitHub's, and shows the wrong file when the two differ.
 
 ## Colour
 
