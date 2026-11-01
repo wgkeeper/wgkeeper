@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="wgkeeper" src="brand/wgkeeper-light.svg#gh-light-mode-only" height="64"><img alt="wgkeeper" src="brand/wgkeeper-dark.svg#gh-dark-mode-only" height="64">
+  <img alt="wgkeeper" src="brand/wgkeeper.svg" height="64">
 </p>
 
 <p align="center">
