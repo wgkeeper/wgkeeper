@@ -1,8 +1,9 @@
 <p align="center">
-  <img width="1200" height="400" alt="logo" src="https://github.com/user-attachments/assets/16ce2ae2-f8fa-4711-a95e-5b91e08c47f9" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="brand/wgkeeper-dark.svg">
+    <img alt="wgkeeper" src="brand/wgkeeper-light.svg" height="64">
+  </picture>
 </p>
-
-<h1 align="center">WGKeeper</h1>
 
 <p align="center">
   Open-source system for managing WireGuard® infrastructure at scale.
@@ -16,7 +17,7 @@
 
 ---
 
-WGKeeper consists of a central **Console** for orchestration and **Node** agents that run on each WireGuard server. Together they let you manage peers, allocate IPs, rotate keys, and monitor stats across your entire fleet — without manual `wg` commands.
+wgkeeper consists of a central **Console** for orchestration and **Node** agents that run on each WireGuard server. Together they let you manage peers, allocate IPs, rotate keys, and monitor stats across your entire fleet — without manual `wg` commands.
 
 ## Components
 
